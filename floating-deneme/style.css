@@ -1,0 +1,1342 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2f5f9;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+p {
+  line-height: 1.8;
+}
+ul,
+li {
+  list-style: none;
+}
+.container {
+  width: 100%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+nav {
+  width: 100%;
+  height: 83px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-color: #202040;
+}
+nav .container {
+  padding: 0rem 15px;
+  width: 100%;
+  margin: 0rem auto;
+  height: 100%;
+}
+nav .content-nav {
+  display: block;
+}
+
+.logo {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.content-nav {
+  height: 100%;
+}
+.content-nav a {
+  text-decoration: none;
+}
+
+.content-nav i {
+  float: right;
+  margin-top: 0px;
+  vertical-align: text-top;
+  color: #ffffff;
+}
+nav ul {
+  display: none;
+}
+nav button {
+  display: none;
+}
+nav ul li i {
+  margin-left: 13px;
+  padding: 3px 0px;
+}
+nav ul li a {
+  transition: 0.3s all ease;
+}
+nav ul li a:hover {
+  color: #dc3545;
+}
+.drop::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f0d7";
+  margin-left: 12px;
+}
+
+/*section-a*/
+
+#section-a {
+  background-color: #202040;
+  min-height: 650px;
+
+  background-image: url(img/slant.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+  background-size: cover;
+}
+.a-left .bttn {
+  padding: 12px 30px;
+  background: #ff6363;
+  border-color: #ff6363;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border: 1px solid transparent;
+  line-height: 1.5;
+}
+#section-a .row {
+  padding: 0rem 15px;
+  width: 100%;
+  margin: 0rem auto;
+  height: 100%;
+  color: white;
+}
+/*section-a form*/
+#section-a form {
+  width: 100%;
+  background-color: #ffffff;
+  height: 67px;
+  border-radius: 7px;
+  padding: 10px;
+}
+#section-a .text {
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  padding: 6px 12px;
+}
+#section-a input::placeholder {
+  font-size: 16px;
+  overflow: hidden;
+}
+#section-a .btn {
+  background-color: #ff6363;
+  border: none;
+  border-radius: 7px;
+  height: 47px;
+  width: 106.5px;
+  color: #ffffff;
+  font-size: 14px;
+  float: right;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+}
+#section-a .btn:focus {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+/*section-a section-b images*/
+.images {
+  width: 100%;
+}
+/*section-b*/
+#seciton-b {
+  padding: 16px;
+}
+#section-b .row {
+  display: inline-block;
+}
+#section-b .brand {
+  width: 25%;
+  float: left;
+  padding: 0rem 15px;
+}
+
+/*section-c*/
+
+#section-c .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header-c {
+  text-align: center;
+}
+#section-c strong {
+  color: #ff6363;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.header-c h2 {
+  margin-bottom: 8px;
+}
+.header-c p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+#section-c .row {
+  text-align: center;
+}
+.frame {
+  background: #ffffff;
+  border-radius: 30px;
+
+  height: 90px;
+  width: 90px;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.frame img {
+  max-height: 50px;
+}
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+.card p {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+/*section-d*/
+#section-d {
+  position: relative;
+}
+.left-d {
+  margin-bottom: 48px;
+  padding: 0px 15px;
+}
+.left-d h2 {
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.left-d p {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.left-d strong {
+  color: #ff6363;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.left-d .btn {
+  padding: 12px 30px;
+  background: #ff6363;
+  border-color: #ff6363;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border: 1px solid transparent;
+  line-height: 1.5;
+}
+.content-d {
+  padding: 40px 40px 70px 40px;
+  background: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+}
+.sub-content-d {
+  text-align: left;
+}
+.sub-content-header-d {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.img-d {
+  float: left;
+  margin-right: 2rem;
+}
+.img-d img {
+  width: 100%;
+  max-width: 80px;
+  border-radius: 50%;
+}
+.auther {
+  line-height: 1.4;
+  display: flow-root;
+}
+.auther > * {
+  display: block;
+}
+.auther cite {
+  font-weight: 700;
+  font-style: normal;
+}
+.auther span {
+  color: #a0a4ab;
+}
+blockquote {
+  line-height: 1.8;
+  font-weight: 700;
+  color: #000839;
+  margin-bottom: 30px;
+}
+.right-d .row {
+  display: inline-block;
+  position: absolute;
+}
+.backspace-d {
+  float: left;
+  font-size: 20px;
+  color: #000000;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border: 1px solid #efefef;
+  padding-left: 11.25px;
+  padding-top: 5.5px;
+  color: #25272c;
+  margin-right: 10px;
+}
+/*section-e*/
+/*BU SECTİON'DA SOL KISMI TARAFIN DNİN LEFT-D SİNDEN ALIYOR BUNU PX ARTTIKCA AYARLARSIN */
+#section-e {
+  padding: 30px 0px;
+}
+.img-e img {
+  width: 100%;
+}
+.img-e {
+  padding: 0px 15px;
+  margin-bottom: 24px;
+}
+/*section-f*/
+/*section-e den ve section-e de section-d den özellikleri çekiyor bunları tekrar tasnif et*/
+
+/*section-g*/
+#section-g .container {
+  padding: 0px 15px;
+}
+.section-g-header {
+  margin-bottom: 48px;
+  text-align: center;
+}
+.section-g-header strong {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ff6363;
+}
+.section-g-header h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.section-g-header .row {
+  height: 28px;
+}
+.section-g-header .row > * {
+  margin-right: 5px;
+  height: 100%;
+}
+.section-g-header p {
+  display: inline-block;
+  font-size: 14px;
+}
+.section-g-header .span-g {
+  background-color: #ff6363;
+  font-size: 10px;
+  background: #ff6363;
+  padding: 4px 10px;
+  font-weight: 700;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+/*alıntı*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff6363;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 28px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #ff6363;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #ff6363;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+/*alıntı*/
+.card-g {
+  padding: 70px 30px;
+  text-align: center;
+  line-height: 1.8;
+}
+.card-g h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.card-g .info {
+  color: #a0a4ab;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.price-header {
+  margin-bottom: 30px;
+}
+.price {
+  color: #ff6363;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
+}
+.price-info {
+  font-size: 16px;
+  font-weight: 400;
+}
+.price-comment {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.price-comment li .icon-g {
+  margin: 4px 8px 0px 0px;
+}
+
+.card-g .btn {
+  padding: 12px 30px;
+  background: #ff6363;
+  border-color: #ff6363;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border: 1px solid transparent;
+  line-height: 1.5;
+}
+#white-g {
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+/*section-h*/
+#section-h {
+  background-color: #ebf0f6;
+}
+#section-h .container {
+  padding: 0px 15px;
+}
+#section-h .container h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+#section-h .container strong {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ff6363;
+  text-align: center;
+  display: block;
+}
+.card-h {
+  padding: 0px 0px;
+}
+.card-h-content > a {
+  display: block;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  background-blend-mode: luminosity;
+
+  transition: 0.3s all ease;
+}
+.card-h-content:hover > a {
+  background-blend-mode: normal;
+}
+.card-h-content-footer {
+  padding: 20px 20px 50px 20px;
+  background-color: #ffffff;
+}
+
+.card-h-content-footer .date {
+  font-size: 12px;
+  color: #a0a4ab;
+}
+.card-h-content-footer h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.card-h-content-footer p {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.angle {
+  width: 30px;
+  height: 30px;
+  float: right;
+  border: 1px solid #efefef;
+  border-radius: 50%;
+}
+.angle i {
+  font-size: 12px;
+  color: #ff6363;
+  padding-left: 40%;
+  padding-top: 29%;
+}
+/*footer*/
+footer .container {
+  padding: 0px 15px;
+}
+footer h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.about p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+.connect {
+  margin-bottom: 30px;
+}
+.connect li {
+  display: inline-block;
+}
+.icon-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  display: inline-block;
+  position: relative;
+  color: black;
+  padding: 17.5px 17.5px;
+  margin-right: 5px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+.icon-box:hover {
+  color: #dc3545;
+}
+.icon-box i {
+  font-size: 15px;
+}
+
+.footer-right {
+  width: 100%;
+}
+.footer-list {
+  padding: 0px 15px;
+  display: inline-block;
+}
+footer ul li {
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+footer ul li:hover {
+  color: #dc3545;
+}
+.footer-list-content {
+  margin-bottom: 30px;
+}
+.footer-list-content li {
+  color: #000000;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.footer-footer {
+  margin-top: 40px;
+  padding-top: 40px;
+  border-top: 1px solid #efefef;
+  text-align: center;
+}
+.footer-footer p {
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.footer-footer i {
+  color: #dc3545;
+}
+
+@media only screen and (max-width: 377px) {
+  html {
+    font-size: 8px;
+  }
+
+  /*section-a*/
+  #section-a h1 {
+    font-size: 5rem;
+    padding-top: 58px;
+    margin-bottom: 3rem;
+  }
+  #section-a p {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  #section-a .text {
+    width: 70%;
+  }
+  #section-a .btn {
+    width: 30%;
+  }
+  .a-right {
+    position: relative;
+    margin-top: -200px;
+    bottom: -100px;
+    margin-bottom: 140px;
+  }
+  /*section-b*/
+  #seciton-b .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /*section-c*/
+  #section-c {
+    padding: 30px 0rem;
+  }
+  .header-c h2 {
+    font-size: 3.25rem;
+  }
+  .card {
+    padding: 20px 30px;
+  }
+  /*section-d*/
+  #section-d {
+    padding: 30px 0;
+  }
+  .left-d h2 {
+    font-size: 26px;
+  }
+  .right-d {
+    padding: 0px 15px;
+  }
+  .img-d {
+    margin-right: 1rem;
+  }
+
+  /*section-e*/
+  /*BU SECTİON'DA SOL KISMI TARAFIN DNİN LEFT-D SİNDEN ALIYOR BUNU PX ARTTIKCA AYARLARSIN */
+
+  /*section-f*/
+  /*section-e den ve section-e de section-d den özellikleri çekiyor bunları tekrar tasnif et*/
+
+  /*section-g*/
+  #section-g {
+    padding: 30px 0px;
+  }
+  .switch {
+    top: -7px;
+  }
+  /*section-h*/
+  #section-h {
+    padding: 30px 0px;
+  }
+  #section-h .container h2 {
+    font-size: 26px;
+  }
+  /*footer*/
+  footer {
+    padding: 30px 0px;
+  }
+  .footer-list {
+    width: 49%;
+  }
+}
+@media only screen and (min-width: 378px) and (max-width: 576px) {
+  /*section-a*/
+  #section-a h1 {
+    font-size: 2.5rem;
+    padding-top: 70px;
+    margin-bottom: 24px;
+  }
+  #section-a p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  #section-a .text {
+  }
+  #section-a .btn {
+    width: 116.05px;
+  }
+  .a-right {
+    position: relative;
+    margin-top: -200px;
+    bottom: -100px;
+    margin-bottom: 140px;
+  }
+  .a-right .images {
+    max-width: 465px;
+  }
+  /*section-b*/
+  /*section-c*/
+  #section-c {
+    padding: 30px 0rem;
+  }
+  .header-c h2 {
+    font-size: 1.625rem;
+  }
+  .card {
+    padding: 20px 30px;
+  }
+  /*section-d*/
+  .left-d h2 {
+    margin-bottom: 26px;
+  }
+  /*section-g*/
+  #section-g {
+    padding: 30px 0px;
+  }
+  .switch {
+    top: -7px;
+  }
+  /*section-h*/
+  #section-h {
+    padding: 30px 0px;
+  }
+  #section-h .container h2 {
+    font-size: 26px;
+  }
+  /*footer*/
+  footer {
+    padding: 30px 0px;
+  }
+  .footer-list {
+    width: 49%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*section-a*/
+  #section-a h1 {
+    font-size: 2.5rem;
+    padding-top: 70px;
+    margin-bottom: 24px;
+  }
+  #section-a p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  #section-a .text {
+  }
+  #section-a .btn {
+    width: 116.05px;
+  }
+  .a-right {
+    position: relative;
+    margin-top: -200px;
+    bottom: -100px;
+    margin-bottom: 140px;
+  }
+  .a-right .images {
+    max-width: 465px;
+  }
+  /*section-b*/
+  /*section-c*/
+  #section-c {
+    padding: 30px 0rem;
+  }
+  .header-c h2 {
+    font-size: 1.625rem;
+  }
+  .card {
+    padding: 20px 30px;
+  }
+  /*section-d*/
+  .left-d h2 {
+    margin-bottom: 26px;
+  }
+  /*section-g*/
+  #section-g {
+    padding: 30px 0px;
+  }
+  .switch {
+    top: -7px;
+  }
+  /*section-h*/
+  #section-h {
+    padding: 30px 0px;
+  }
+  #section-h .container {
+    padding: 0px 0px;
+  }
+  #section-h .container h2 {
+    font-size: 26px;
+  }
+  .card-h {
+    padding: 0px 0px;
+    display: inline-block;
+  }
+  .card-h-content {
+    float: left;
+    width: 270px;
+    padding: 0px 15px;
+  }
+  /*footer*/
+  footer {
+    padding: 30px 0px;
+  }
+  .footer-list {
+    width: 49%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*section-a*/
+  #section-a h1 {
+    font-size: 2.5rem;
+    padding-top: 120px;
+    margin-bottom: 24px;
+  }
+  #section-a p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  #section-a .text {
+  }
+  #section-a .btn {
+    width: 116.05px;
+  }
+  .a-right {
+    position: relative;
+    margin-top: -64px;
+    bottom: -100px;
+    margin-bottom: 140px;
+  }
+  .a-right .images {
+    max-width: 465px;
+  }
+  /*section-b*/
+  /*section-c*/
+  #section-c {
+    padding: 30px 0rem;
+  }
+  #section-c .row {
+    text-align: left;
+  }
+  .header-c h2 {
+    font-size: 1.625rem;
+  }
+  .card {
+    padding: 20px 30px;
+    width: 330px;
+    display: inline-block;
+  }
+  .frame {
+    margin-left: 0px;
+  }
+  /*section-d*/
+  #section-d {
+    padding: 30px 0px;
+  }
+  .left-d h2 {
+    margin-bottom: 26px;
+  }
+  /*section-g*/
+  #section-g {
+    padding: 30px 0px;
+  }
+  .switch {
+    top: -7px;
+  }
+  .card-g {
+    width: 330px;
+
+    display: inline-block;
+  }
+  /*section-h*/
+  #section-h {
+    padding: 30px 0px;
+  }
+  #section-h .container {
+    padding: 0px 0px;
+  }
+  #section-h .container h2 {
+    font-size: 26px;
+  }
+  .card-h {
+    padding: 0px 0px;
+    display: inline-block;
+  }
+  .card-h-content {
+    float: left;
+    width: 360px;
+    padding: 0px 15px;
+  }
+  /*footer*/
+  footer {
+    padding: 30px 0px;
+  }
+  .footer-list {
+    width: 32%;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav {
+    height: 88px;
+  }
+  .logo {
+    float: left;
+    margin-right: 40px;
+  }
+  nav ul {
+    margin-left: 30px;
+    display: inline;
+  }
+  nav i {
+    display: none;
+  }
+  nav ul li {
+    float: left;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  nav ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.3s all ease;
+  }
+  nav button {
+    display: inline;
+    float: right;
+    height: 41px;
+    border-radius: 30px;
+    width: 151.06px;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    transition: 0.3s all ease;
+  }
+  nav button:hover {
+    color: #ffffff;
+    background: #ff6363;
+    border-color: #ff6363;
+  }
+  /*section-a*/
+  #section-a {
+    min-height: 575px;
+  }
+  #section-a h1 {
+    font-size: 2.5rem;
+    padding-top: 120px;
+    margin-bottom: 24px;
+  }
+  #section-a p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  #section-a .text {
+  }
+  #section-a .btn {
+    width: 116.05px;
+  }
+  .a-right {
+    position: relative;
+    margin-top: -64px;
+    bottom: -100px;
+    margin-bottom: 140px;
+    width: 50%;
+    float: right;
+  }
+  .a-right .images {
+    max-width: 465px;
+  }
+  .a-left {
+    width: 40%;
+    float: left;
+  }
+  /*section-b*/
+  /*section-c*/
+  #section-c {
+    padding: 70px 0rem;
+  }
+  #section-c .row {
+    text-align: left;
+  }
+  .header-c {
+    width: 57%;
+    margin: 0px auto;
+  }
+  .header-c h2 {
+    font-size: 1.625rem;
+  }
+  .card {
+    padding: 20px 30px;
+    width: 32.333%;
+    display: inline-block;
+  }
+  .card p {
+    width: 90%;
+  }
+  .frame {
+    margin-left: 0px;
+  }
+  /*section-d*/
+  #section-d {
+    padding: 70px 0px;
+  }
+  .left-d h2 {
+    font-size: 30px;
+  }
+  .left-d {
+    width: 35%;
+    float: left;
+  }
+  .right-d {
+    width: 55.6%;
+    float: right;
+  }
+  /*section-e*/
+  #section-e {
+    padding: 70px 0px;
+  }
+  #section-e .img-e {
+    float: right;
+    width: 58.4%;
+  }
+  #section-e .left-d {
+    float: left;
+    width: 35%;
+  }
+  /*section-f*/
+  #section-f {
+    padding: 70px 0px;
+  }
+  #section-f .img-e {
+    float: left;
+    width: 58.4%;
+  }
+  #section-f .left-d {
+    float: right;
+    width: 35%;
+  }
+  /*section-g*/
+  #section-g {
+    padding: 70px 0px;
+  }
+  .card-g {
+    width: 32.333%;
+    display: inline-block;
+  }
+  /*section-h*/
+  #section-h {
+    padding: 70px 0px;
+  }
+  #section-h .container {
+    padding: 0px 0px;
+  }
+  #section-h .container h2 {
+    font-size: 26px;
+  }
+  .card-h {
+    padding: 0px 0px;
+    display: inline-block;
+  }
+  .card-h-content {
+    float: left;
+    width: 25%;
+    padding: 0px 15px;
+  }
+  /*footer*/
+  footer {
+    padding: 70px 0px;
+  }
+  .footer-left {
+    float: left;
+    width: 31%;
+  }
+  .icon-box {
+    margin-right: 0px;
+  }
+  .footer-right {
+    float: right;
+    width: 50%;
+  }
+  .footer-right h3 {
+    padding-left: 15px;
+  }
+  .footer-right ul {
+    line-height: 1.8;
+  }
+  .footer-list {
+    width: 32%;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .container {
+    max-width: 1110px;
+    padding: 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  nav {
+    height: 88px;
+  }
+  .logo {
+    float: left;
+    margin-right: 40px;
+  }
+  nav ul {
+    margin-left: 30px;
+    display: inline;
+  }
+  nav i {
+    display: none;
+  }
+  nav ul li {
+    float: left;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  nav ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.3s all ease;
+  }
+  nav button {
+    display: inline;
+    float: right;
+    height: 41px;
+    border-radius: 30px;
+    width: 151.06px;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    transition: 0.3s all ease;
+  }
+  nav button:hover {
+    color: #ffffff;
+    background: #ff6363;
+    border-color: #ff6363;
+  }
+  /*section-a*/
+  #section-a {
+    min-height: 575px;
+  }
+  #section-a h1 {
+    font-size: 2.5rem;
+    padding-top: 120px;
+    margin-bottom: 24px;
+  }
+  #section-a p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  #section-a .text {
+  }
+  #section-a .btn {
+    width: 116.05px;
+  }
+  .a-right {
+    position: relative;
+    margin-top: -64px;
+    bottom: -100px;
+    margin-bottom: 140px;
+    width: 50%;
+    float: right;
+  }
+  .a-right .images {
+    max-width: 465px;
+  }
+  .a-left {
+    width: 42%;
+    float: left;
+  }
+  /*section-b*/
+  /*section-c*/
+  #section-c {
+    padding: 70px 0rem;
+  }
+  #section-c .row {
+    text-align: left;
+  }
+  .header-c {
+    width: 57%;
+    margin: 0px auto;
+  }
+  .header-c h2 {
+    font-size: 1.625rem;
+  }
+  .card {
+    padding: 20px 30px;
+    width: 32.333%;
+    display: inline-block;
+  }
+  .card p {
+    width: 90%;
+  }
+  .frame {
+    margin-left: 0px;
+  }
+  /*section-d*/
+  #section-d {
+    padding: 70px 0px;
+  }
+  .left-d h2 {
+    font-size: 30px;
+  }
+  .left-d {
+    width: 35%;
+    float: left;
+  }
+  .right-d {
+    width: 55.6%;
+    float: right;
+  }
+  /*section-e*/
+  #section-e {
+    padding: 70px 0px;
+  }
+  #section-e .img-e {
+    float: right;
+    width: 58.4%;
+  }
+  #section-e .left-d {
+    float: left;
+    width: 35%;
+  }
+  /*section-f*/
+  #section-f {
+    padding: 70px 0px;
+  }
+  #section-f .img-e {
+    float: left;
+    width: 58.4%;
+  }
+  #section-f .left-d {
+    float: right;
+    width: 35%;
+  }
+  /*section-g*/
+  #section-g {
+    padding: 70px 0px;
+  }
+  .card-g {
+    width: 32.333%;
+    display: inline-block;
+  }
+  /*section-h*/
+  #section-h {
+    padding: 70px 0px;
+  }
+  #section-h .container {
+    padding: 0px 0px;
+  }
+  #section-h .container h2 {
+    font-size: 26px;
+  }
+  .card-h {
+    padding: 0px 0px;
+    display: inline-block;
+  }
+  .card-h-content {
+    float: left;
+    width: 25%;
+    padding: 0px 15px;
+  }
+  /*footer*/
+  footer {
+    padding: 70px 0px;
+  }
+  .footer-left {
+    float: left;
+    width: 31%;
+  }
+  .icon-box {
+    margin-right: 0px;
+  }
+  .footer-right {
+    float: right;
+    width: 50%;
+  }
+  .footer-right h3 {
+    padding-left: 15px;
+  }
+  .footer-right ul {
+    line-height: 1.8;
+  }
+  .footer-list {
+    width: 32%;
+  }
+}
